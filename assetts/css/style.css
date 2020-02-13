@@ -1,0 +1,15 @@
+
+ body {
+    width: 960px;
+    /* should this be hieght? */
+    margin: auto;
+}
+body {
+    color: blue;
+}
+/* morelinks = about me, portfolio, contact */
+.side_img {
+transform:rotate(90deg);
+
+    /* this should rotate my image 90 degrees */
+}

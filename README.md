@@ -20,6 +20,11 @@ A ...basic portfolio
 
    * Make sure to `git add .` and `git commit -m "initial site files"`. Then type `git push origin master` to push your changes to your GitHub repo.
 
+
+
+HERE BE DRAGONS:
+
+
 5. Reference these screenshots for your site:
 
    ![Portfolio About](Images/portfolio-about-me.png)
