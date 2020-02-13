@@ -1,8 +1,12 @@
 
+ /* fix images */
+ /* make about... fit */
+ 
+ 
  body {
     width: 960px;
-    /* should this be hieght? */
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     color:#777777;
@@ -14,17 +18,23 @@ h1{
     padding: 12px;
     border-color: #cccccc;
     border-width: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 h2{
     color: #4aaaa5;
     background-color: #ffffff;
-
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h3{ background-color: #4aaaa5;
-
+h3{ 
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 140px;                       /* width should be width of .box */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4{
+
 
 }
 h5{
@@ -51,8 +61,9 @@ transform:rotate(90deg);
 border: 2px solid green;
 color: brown;
 background-color: grey;
-height: 120px;
-width: 120px;
+height: 140px;
+width: 140px;
+/* get placeholder images!!! */
 }
 
 footer{
@@ -65,9 +76,9 @@ footer{
 /* ### Additional Specifcations
 
 1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
-   * Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
-   * Main header background color: `#ffffff`
+   X Teal color (used for headings and backgrounds): `#4aaaa5`
+  X Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   ? Main header background color: `#ffffff`
    * Main header border color: `#cccccc`
    * Footer background color: `#666666`
    * Main content background color: `#ffffff`
