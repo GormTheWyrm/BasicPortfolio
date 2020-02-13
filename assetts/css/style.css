@@ -5,7 +5,33 @@
     margin: auto;
 }
 body {
-    color: blue;
+    color:#777777;
+}
+h1{ 
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: fit-content;
+    padding: 12px;
+    border-color: #cccccc;
+    border-width: 1px;
+
+}
+h2{
+    color: #4aaaa5;
+    background-color: #ffffff;
+
+}
+h3{ background-color: #4aaaa5;
+
+}
+h4{
+
+}
+h5{
+
+}
+hr{
+   color: #cccccc; 
 }
 /* morelinks = about me, portfolio, contact */
 .side_img {
@@ -17,6 +43,8 @@ transform:rotate(90deg);
 
 }
 .mainbody{
+    width: 800px;
+    margin: auto;
 
 }
 .box{
