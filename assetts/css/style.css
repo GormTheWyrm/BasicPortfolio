@@ -1,6 +1,7 @@
 
  /* fix images */
  /* make about... fit */
+ /* use positions */
  
  
  body {
@@ -43,7 +44,7 @@ h5{
 hr{
    color: #cccccc; 
 }
-/* morelinks = about me, portfolio, contact */
+
 .side_img {
 transform:rotate(90deg);
 
@@ -51,6 +52,7 @@ transform:rotate(90deg);
 }
 .morelinks{
 
+ 
 }
 .mainbody{
     width: 800px;
@@ -64,6 +66,7 @@ background-color: grey;
 height: 140px;
 width: 140px;
 /* get placeholder images!!! */
+
 }
 
 footer{
