@@ -27,12 +27,14 @@ h2{
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
+ 
 }
 h3{ 
     color: #ffffff;
     background-color: #4aaaa5;
-    width: 140px;                       /* width should be width of .box */
+    width: 200px;                       /* width should be width of .box */
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
 }
 h4{
 
@@ -45,10 +47,19 @@ hr{
    color: #cccccc; 
 }
 
+
+
 .side_img {
 transform:rotate(90deg);
-
+position: relative;
+/* position: absolute; */
     /* this should rotate my image 90 degrees */
+    display: inline;
+    /* object-fit: cover; */
+    padding: 30px;
+    /* display: inline; */
+    float: left;
+
 }
 .morelinks{
 
@@ -57,21 +68,61 @@ transform:rotate(90deg);
 .mainbody{
     width: 800px;
     margin: auto;
+    margin-bottom: 250px;
+    padding-bottom: 100px;
+    display: inline;
+
 
 }
 .box{
 border: 2px solid green;
 color: brown;
 background-color: grey;
-height: 140px;
-width: 140px;
+height: 200px;
+width: 200px;
+/* position: absolute; */
+position: relative;
+/* display: inline; */
+display: inline-flex;
 /* get placeholder images!!! */
+/* padding: 20px; */
+margin: 50px;
+}
+#box1{
 
 }
+
+#box2{
+    /* right: 160px; */
+
+}
+
+
+
+
+/*              Box IDs = 1-9
+
+                HangMan</h3>
+                RGP Game</h3>
+                Trivia Game</h3>
+                Widget</h3>
+                Rock Paper Scissors</h3>
+                Artwork</h3>
+                Stories</h3>
+                Blender</h3>
+                TheseButtons<br>DontRun...yet</h3>
+*/
 
 footer{
+position:absolute;
+bottom: -55px;
+margin-top: 50px;
 
 }
+.push{
+height: 50pxs;
+}
+
 
 
 
