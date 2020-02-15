@@ -24,9 +24,10 @@
     width: 960px;
     margin: auto;
     position: relative;     /*this is needed to make morelinks go to the right of section instead of page*/
-
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-h1{ 
+h1{                     /*reserved for my name*/
     color: #ffffff;
     background-color: #4aaaa5;
     width: fit-content;
@@ -35,6 +36,7 @@ h1{
     border-width: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* margin-bottom: 25px; */
+    margin-bottom: 0px;         /*victory!/*
 
 }
 h2{
@@ -42,7 +44,7 @@ h2{
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
- 
+    width: fit-content;
 }
 h3{ 
     color: #ffffff;
@@ -64,6 +66,8 @@ h5{
 }
 hr{
    color: #cccccc; 
+   /* height: 5px; */
+   margin: 0px;
 }
 
 a {color: #777777;
