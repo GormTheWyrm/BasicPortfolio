@@ -2,15 +2,29 @@
  /* fix images */
  /* make about... fit */
  /* use positions */
- 
+ /* CREDIT: Background pattern from Toptal Subtle Patterns  */
  
  body {
-    width: 960px;
+    /* width: 960px; */
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-}
-body {
+    /* font-weight: 500; */
+    /* background-image: url(assetts/images/folk-pattern-black/folk-pattern-black.png) */
+    /* background-image: url(/assetts/images/folk-pattern-black.png); */
+    /* background-image: url(../images/folk-pattern-black.png); */
     color:#777777;
+}
+.bg-spot{
+    background-image: url(../images/folk-pattern-black.png);
+    /* margin-top: 25px; */
+    padding-top: 25px;
+    padding-bottom: 200px;
+}
+.header1{
+    width: 960px;
+    margin: auto;
+    position: relative;     /*this is needed to make morelinks go to the right of section instead of page*/
+
 }
 h1{ 
     color: #ffffff;
@@ -20,6 +34,7 @@ h1{
     border-color: #cccccc;
     border-width: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-bottom: 25px; */
 
 }
 h2{
@@ -34,7 +49,11 @@ h3{
     background-color: #4aaaa5;
     width: 200px;                       /* width should be width of .box */
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 30px;
+    height: 45px;
+    /* height: fit-content; */
+    text-align: center;
+
+    
 }
 h4{
 
@@ -47,14 +66,19 @@ hr{
    color: #cccccc; 
 }
 
+a {color: #777777;
+}
 
+.header{
+background-color:#ffffff ;
+}
 
 .side_img {
 transform:rotate(90deg);
 position: relative;
 /* position: absolute; */
     /* this should rotate my image 90 degrees */
-    display: inline;
+    /* display: inline; */
     /* object-fit: cover; */
     padding: 30px;
     /* display: inline; */
@@ -62,24 +86,40 @@ position: relative;
 
 }
 .morelinks{
-
- 
+    color: #777777;
+    /* unnecessary; need to apply to links! */
+    position: absolute;
+    right: 50px;        /*this needs to move from the border of header1*/
+            /* give ancestor a position! */
+    top:25px;
+    /* position: relative; */
+    /* top: -15px; */
+    /* right: -750px; */
+    /* this needs to be relative to header1... */
 }
 .mainbody{
-    width: 800px;
+    width: 920px;
     margin: auto;
     margin-bottom: 250px;
     padding-bottom: 100px;
-    display: inline;
-
+    padding: 10px 20px 100px 20px;
+    /* position: relative; */
+    /* left: -20px; */
+    
+    /* display: inline; */
+    /* background-color: #6E9FCC; */
+    /* background-color: #52807D; */
+    /* background-color: #29403F; */
+    /* background-color: #60B3AE; */
+    background-color: #ffffff;
 
 }
 .box{
 border: 2px solid green;
 color: brown;
 background-color: grey;
-height: 200px;
-width: 200px;
+height: 180px;
+width: 180px;
 /* position: absolute; */
 position: relative;
 /* display: inline; */
