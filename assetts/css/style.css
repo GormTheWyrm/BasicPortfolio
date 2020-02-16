@@ -206,18 +206,41 @@ margin: 50px;
                 TheseButtons<br>DontRun...yet</h3>
 */
 
-footer{
-position:absolute;
+.footer{
+background-color: #666666;  
+                            /* this is the specified color- but not the color shown in the reference photo */
+margin: auto;
+text-align: center;
+/* position: absolute; */
+
+
+/* position: relative; */
+/* height: 30px; */
+padding:    60px 0;
+bottom: 0px;
+/* border: #4aaaa5 top solid 40px; */
+/* border-style: solid; */
+border-top: solid;
+border-color: red;
+border-width: 10px;
+border-color: #4aaaa5;
+}
+
+
+/* position:absolute;
 bottom: -55px;
 margin-top: 50px;
 background-color: #666666;
-
-}
-.push{
-height: 50pxs;
-}
+width: max-content;
+height: 50px; */
 
 
+
+/* I dont know how to do the footer correctly */
+/* Ask in class */
+
+/* footer and background image messed up on small screens
+-> goes to screen width, lol */
 
 
 
