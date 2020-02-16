@@ -50,10 +50,14 @@ h3{
     color: #ffffff;
     background-color: #4aaaa5;
     width: 200px;                       /* width should be width of .box */
+                                        /* higher width seems to be working... */
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 45px;
     /* height: fit-content; */
     text-align: center;
+    position:relative;
+    bottom: -105px;
+
 
     
 }
@@ -75,6 +79,8 @@ a {color: #777777;
 
 .header{
 background-color:#ffffff ;
+border: #cccccc;
+border-width: 1px;
 }
 
 .side_img {
@@ -102,7 +108,7 @@ position: relative;
     /* this needs to be relative to header1... */
 }
 .mainbody{
-    width: 920px;
+    width: 918px;
     margin: auto;
     margin-bottom: 250px;
     padding-bottom: 100px;
@@ -116,12 +122,15 @@ position: relative;
     /* background-color: #29403F; */
     /* background-color: #60B3AE; */
     background-color: #ffffff;
+    border: #dddddd solid 2px;
+    
 
 }
 .box{
 border: 2px solid green;
 color: brown;
 background-color: grey;
+/* background-image: url(http://lorempixel.com/400/200/); */
 height: 180px;
 width: 180px;
 /* position: absolute; */
@@ -132,16 +141,56 @@ display: inline-flex;
 /* padding: 20px; */
 margin: 50px;
 }
+    /* these background stock photos will stop working soon as google unless I figure out how to deliver them with cookies
+    buuuut... chrome hasnt added that yet so I might be ok for this assignment... */
+    /* I should ask about it in class? */
 #box1{
-
+    background-image: url(http://lorempixel.com/400/200/people);
 }
 
 #box2{
-    /* right: 160px; */
+    background-image: url(http://lorempixel.com/400/200/animals);
+}
+#box3{
+    background-image: url(http://lorempixel.com/400/200/nightlife);
+}
+#box4{
+    background-image: url(http://lorempixel.com/400/200/business);
+}
+#box5{
+    background-image: url(http://lorempixel.com/400/200/sports);
+}
+#box6{
+    /* background-image: url(/assetts/images/GormyDragon.png); */
+    background-image: url(../images/GormyDragon.png);
+    background-size: 180px 180px;
+    /* background-color: yellow; */
+}
+#box7{
+    background-image: url(../images/cloak.JPG);
+    background-size: 180px 180px;
 
 }
+#box8{
+    background-image: url(../images/box.PNG);
+    background-size: 180px 180px;
+}
+#box9{
+    /* background-image: url(http://lorempixel.com/400/200/); */
+    background-image: linear-gradient(45deg, rgb(61, 126, 61), rgb(221, 104, 25) );
+}
 
+.testform{
 
+}
+.testbutton{
+    padding: 6px 15px;
+    background-color: #4aaaa5;
+    border-width: 0px;
+}
+
+ 
+    
 
 
 /*              Box IDs = 1-9
@@ -161,6 +210,7 @@ footer{
 position:absolute;
 bottom: -55px;
 margin-top: 50px;
+background-color: #666666;
 
 }
 .push{

@@ -12,7 +12,9 @@
         <h1>Geordin Soucie</h1>
         <div class="morelinks">
             <a href="index.html" target="_blank">About</a>
+            |
             <a href="portfolio.html" target="_blank">Portfolio</a>
+            |
             <a href="contact.html" target="_blank">Contact</a>
         </div>
     </div>
@@ -25,20 +27,25 @@
 
 
 
-        <form action="">
+        <form action="" class="testform">
             Name <br>
-            <input type="text" name="name"> <br>
+            <!-- <input type="text" name="name"> <br> -->
+            <textarea cols="125" rows="1">John Smith</textarea>
             Email <br>
-            <input type="text" name="email"> <br>
+            <!-- <input type="text" name="email"> <br> -->
+            <textarea cols="125" rows="1">Example@gmail.com</textarea>
+            <!-- chose not to use emmet abbreviation on that... -->
+            
             Message <br>
             <!-- <input type="text" size="75" name="message">  -->
-            <textarea cols="60" rows="6"></textarea>
+            <textarea cols="125" rows="12">Help, I'm a bug!</textarea>
             <br><br>
-            <button type="submit">Submit</button>
+            <button type="submit" button class="testbutton">Submit</button>
+
             <!-- useful link    https://www.w3schools.com/html/html_forms.asp -->
             <!-- Need to figure out how to make it actually work -->
             <!-- action attribute ommitted, so should send action to the current page... -->
-            <!-- method attribute... get standar, post for sensitive info -->
+            <!-- method attribute... "get" standard, "post" for sensitive info -->
 
         </form>
         <div class="push" ></div>
